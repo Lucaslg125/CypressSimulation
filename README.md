@@ -1,3 +1,3 @@
 # CypressSimulation
 
-Cypress JavaScript 
+Cypress JavaScript, HTML
