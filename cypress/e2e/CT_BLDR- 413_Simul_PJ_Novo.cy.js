@@ -67,31 +67,7 @@ it('CT BLDR-413 PJ NOVO', () => {
   cy.get(el.SIMULACAO.CARD_SIMU_1_LNK_CONTRATARSER, { timeout: 80000 }).should('be.visible').click()
   cy.wait(5000)
 
-
-  //cy.get(el.SIMULACAO.CHECK_SEGURO_PROTECAO_FINANCEIRA, { timeout: 80000 }).should('be.checked')
-  // cy.get(el.SIMULACAO.CHECK_SEGURO_TRANQUILIDADE, { timeout: 70000 }).click({ force: true })
-  // cy.get(el.SIMULACAO.CHECK_SEGURO_TRANQUILIDADE_TOTAL).should('be.checked')
-  // cy.get(el.SIMULACAO.CHECK_SEMINOVO_GARANTIDO_COMPLETO).should('be.checked')
-  //   cy.get(el.SIMULACAO.CHECK_SEMINOVO_GARANTIDO_COMPLETO, { timeout: 80000 }).click({ force: true })
-  //   cy.get('#mat-select-35').click()
-  //cy.get('.mat-option-text').contains('12', { timeout: 80000 }).click({ force: true })
-  //cy.get(el.SIMULACAO.SEMINOVO_GARANTIDO_COMPLETO_KM).type('90000{enter}')
-  // .should('have.value', '90000')
-
-  // cy.get(el.SIMULACAO.SEMINOVO_GARANTIDO_COMPLETO_CHASSI, { timeout: 70000 }).type('93Y RBB008 NJ 089055')
-  //   cy.get('#mat-dialog-2', { timeout: 80000 }).should('be.visible').click()
-  //   cy.wait(5000)
-  //   cy.get(el.SIMULACAO.BTN_CONTRATAR_SEGUROS).contains('Contratar').should('be.visible')
-  //  .click({ force: true })
-
-  //  cy.get(el.SIMULACAO.BUTTON_CONTRATAR_SIMULACAO_1, { timeout: 80000 }).should('be.visible').click({ force: true })
-  // cy.wait(4000)
-
-
-  // cy.get(el.SIMULACAO.MODAL_SERVICOS_E_SEGUROS, { timeout: 80000 }).should('be.visible').click()
   cy.wait(5000)
-
-
 
   cy.get(el.SIMULACAO.BTN_CONTRATAR_SEGUROS).contains('Contratar').should('be.visible')
     .click({ force: true })
